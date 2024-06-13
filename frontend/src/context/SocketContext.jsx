@@ -18,7 +18,7 @@ export const SocketContextProvider = ({ children }) => {
 	useEffect(() => {
 		if (authUser) {
 			// Establish the Socket.IO connection
-			const newSocket = io("http://localhost:5000", { // Use http:// for local development
+			const newSocket = io("https://chat-application-g7a9.onrender.com", { // Use http:// for local development
 				query: {
 					userId: authUser._id,
 				},
