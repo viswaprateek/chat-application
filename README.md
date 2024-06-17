@@ -1,21 +1,24 @@
 # Chat-App
 
-A real-time chat application that allows users to connect and communicate.
+## [Click here to view Chat-App](https://chat-application-g7a9.onrender.com)
 
-**Features:**
+### Setup .env file
 
-* Secure messaging
-* Group chat functionality
-* ... (other features)
+###js
+PORT=...
+MONGO_DB_URI=...
+JWT_SECRET=...
+NODE_ENV=...
 
-**Live Demo:**
 
-Click here to access the deployed application: [link to your deployed app]
+### Build the app
 
-**Local Setup**
+```shell
+npm run build
+```
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Create a `.env` file and configure environment variables (refer to documentation for details on required variables)
-4. Build the app: `npm run build`
-5. Start the app: `npm start`
+### Start the app
+
+```shell
+npm start
+```
