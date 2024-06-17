@@ -2,9 +2,9 @@
 
 ## [Click here to view Chat-App](https://chat-application-g7a9.onrender.com)
 
-### Setup .env file
+### Setup .env file root directory
 
-###js
+
 PORT=...
 MONGO_DB_URI=...
 JWT_SECRET=...
